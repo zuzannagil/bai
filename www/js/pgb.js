@@ -19,10 +19,11 @@ function deviceInfo() {
 
 function personalInfo() {
 
-	info =  'Name : Zuzanna Gil'  + '\n' + 
+	info1 =  'Name : Zuzanna Gil'  + '\n' + 
 			'Phone number : 501 225 774' + '\n' + 
-			'E-mail address : zuzannagil@wp.pl' + device.platform + '\n' + 
+			'E-mail address : zuzannagil@wp.pl' + device.platform + '\n';
 			
 	navigator.notification.alert(info);
+	navigator.notification.alert(info1);
 	
 }
